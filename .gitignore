@@ -1,0 +1,31 @@
+# Local credentials
+config.ini
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated/imported data, caches, logs and outputs
+data/cache_owners/
+logs/
+outputs/
+results/
+*.out
+*.err
+*.log
+*.db
+*.sqlite*
+
+# Backups and editor files
+*.backup
+*.orig
+.DS_Store
+
+# Dataset omitted from the public snapshot
+data/ch8_rac_ww_1939.json
